@@ -241,7 +241,7 @@ body>header{
 	.titlecaption2{
 		margin-top: 0.2em; margin-bottom: 0.4em;
 		font-weight: 400;
-		@media (min-width: 600px) and (min-height: 500px){font-size: 2.6em;}
+		@media (min-width: 600px) and (min-height: 500px){font-size: 2.2em; /*was 2.6*/ }
 		@media (max-width: 600px), (max-height: 500px){font-size: 1.8em;}
 	}
 }
@@ -328,12 +328,13 @@ section{
 	}
 }
 
+#about header{background-color: $blue;}
 #faq header{background-color: $yellow;}
 #team header{background-color: $blue;}
-#schedule header{background-color: $yellow;}
-#sponsors header{background-color: $blue;}
+#schedule header{background-color: $blue;}
+#sponsors header{background-color: black;}
 #register header{background-color: black;}
-#archive header{background-color: black;}
+#archive header{background-color: $yellow;}
 #faq .content{text-align:center;}
 @media (min-width: 900px){
 	#faq .content{padding: 80px 30px 80px 0px; border-left: solid 85px rgba(0,0,0,0.1);}
